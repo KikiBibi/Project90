@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Math Quiz Game!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrap.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleleapis.com/ajax/libs/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="quiz_game.css">
+</head>
+<body>
+    <div class="container"
+    
+         <h1 style ="text-align:center;">Activity 1</h1>
+        <button class="btn btn-warning">Update the score</button>
+<br>
+<br>
+<button class="btn btn-success">Save the score</button>
+<br>
+<br>
+<button class="btn">Next page</button>
+
+</div>
+<script src="activity1.js"></script>
+<div class="container"
+
+<div class="container"></div>
+     <h1 style ="text-align: center;">Activity 1</h1>
+     <h2 id="score">Score : 0</h2>
+        <br>
+        <br>
+        <label>Send Your Word:<b style ="color:red">Try putting a word which has 5 or more letters</b></label>
+    <br>
+
+</div>
+
+<div class="container"></div>
+     <h1 style="text-align: center">Activity 1</h1>
+     <h2 id="score">Score : </h2>
+
+     <button class="btn btn-warning" onclick="updateScore();">Update The Score</button>
+
+     <div class="container">
+        <h1 style="text-align: centre;">Activity 1</h1>
+        <h2 id="score">Score : </h2>
+
+        <button class="btn btn-warning" onclick="updateScore();">Update the Score</button>
+        <br>
+        <br>
+        <button class="btn btn-succsess" onclick="saveScore();">Save score</button>
+     </div>
+
+     <div style="margin: auto; border: 10px; border-color: aqua; background-color:rgba(10, 114, 0, 0.767); width: 700px;line-height-step: 30px;">
+          
+        <h1 style="text-align: center; padding-top: 10px;">Player 1 Login for the game</h1>
+        <h4 style= "text-align: center;"> User name:</h4>
+        <form action="/action_page.php"; style="text-align: center; padding-bottom: 10px;">
+            <label for="player1">Insert Player 1 name</label>
+            <input type="text" id="player1_name_input" name="player1_name"> <br><br>
+                       
+            </form>
+           
+    </div></style>
+    <br>
+    <br>
+
+    <div style="margin: auto; border: 10px; border-color: aqua; background-color:rgba(128, 0, 255, 0.463); width: 700px;line-height-step: 30px;padding-top: 10px;">
+      
+        <h1 style="text-align: center;">Player 2 Login for the game</h1>
+        <h4 style= "text-align: center;"> User name:</h4>
+        <form action="/action_page.php"; style="text-align: center; padding-bottom: 10px;">
+            <label for="player2">Insert Player 2 name</label>
+            <input type="text" id="player2_name_input" name="player2_name"> <br><br>
+              </form>
+            </div>
+
+     <div class="container">
+        <h1 style="text-align: centre;">Activity 1</h1>
+        <h2 id="score">Score : </h2>
+
+        <button class="btn btn-warning" onclick="updateScore();">Update the Score</button>
+        <br>
+        <br>
+        <button class="btn btn-succsess" onclick="saveScore();">Save score</button>
+        <br>
+        <br>
+        <button class="btn btn-info" onclick="nextPage();">Next page</button>
+     </div>
+
+    <div class="container"
+    <centre>
+        <h2 style ="color:white;">Guess The Word!</h2>
+        <br>
+        <br>
+        <label>Send Your Word:<b style ="color:red">Try putting a word which has 5 or more letters</b></label>
+    <br>
+    </centre>
+</div>
+        <script src="quiz_game_login.js"></script>
+
+
+    
+    <br>
+    <br> 
+<div>
+        <button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
+    </div>
+    function addUser() {
+        player1_name = document.getElementById("player")
+    }
+
+</body>
+</head>
+</html>
